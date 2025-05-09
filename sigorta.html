@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigorta Çözümlerimiz - Pars Sigorta</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon ve diğer meta etiketleri buraya eklenebilir -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Font Awesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header id="header">
+    <div class="container header-container">
+      <a href="index.html#hero" class="logo"> <!-- Ana sayfaya yönlendirme güncellendi -->
+        <img src="img/pslogo.webp" alt="ParsSigorta Logo"> <!-- Logo yolu .webp olarak güncellendi -->
+        <div class="logo-text">
+          <span class="brand-name">Pars</span><span class="tagline">Sigorta</span> <!-- Tagline span eklendi -->
+        </div>
+      </a>
+      <div class="header-right">
+        <nav id="mainNavDesktop">
+           <ul>
+            <li><a href="index.html#hero">Ana Sayfa</a></li> <!-- Aktif sınıfı kaldırıldı -->
+            <li class="dropdown">
+              <a href="index.html#services" class="dropdown-toggle active">Sigorta Ürünlerimiz <i class="fas fa-chevron-down dropdown-indicator"></i></a> <!-- Aktif sınıfı buraya taşındı -->
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu"> <!-- Araç Sigortaları Grubu -->
+                  <a href="arac-sigortasi-detay.html" class="dropdown-toggle">Araç Sigortaları <i class="fas fa-chevron-right dropdown-indicator" style="float: right; margin-left: auto;"></i></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="zorunlu-trafik.html">Zorunlu Trafik</a></li>
+                    <li><a href="marka-kasko.html">Marka Kasko</a></li>
+                    <li><a href="kasko-yeni.html">Kasko Yeni</a></li>
+                    <li><a href="filo-kasko.html">Filo Kasko</a></li>
+                    <li><a href="yesil-kart.html">Yeşil Kart</a></li>
+                    <li><a href="rent-a-car-kasko.html">Rent a Car Kasko</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-submenu"> <!-- Sağlık Sigortaları Grubu -->
+                   <a href="saglik-sigortasi-detay.html" class="dropdown-toggle">Sağlık Sigortaları <i class="fas fa-chevron-right dropdown-indicator" style="float: right; margin-left: auto;"></i></a>
+                   <ul class="dropdown-menu">
+                     <li><a href="tamamlayici-saglik.html">Tamamlayıcı Sağlık</a></li>
+                     <li><a href="ozel-saglik.html">Özel Sağlık</a></li>
+                     <li><a href="yurtdisi-seyahat-saglik.html">Yurtdışı Seyahat Sağlık</a></li>
+                     <li><a href="yurtdisi-egitim.html">Yurtdışı Eğitim</a></li>
+                     <li><a href="yabanci-saglik.html">Yabancı Sağlık</a></li>
+                     <li><a href="riskli-hastaliklar.html">Riskli Hastalıklar</a></li>
+                   </ul>
+                </li>
+                 <li class="dropdown-submenu"> <!-- Konut Sigortaları Grubu -->
+                   <a href="konut-sigortasi-detay.html" class="dropdown-toggle">Konut Sigortaları <i class="fas fa-chevron-right dropdown-indicator" style="float: right; margin-left: auto;"></i></a>
+                   <ul class="dropdown-menu">
+                     <li><a href="konut-sigortasi.html">Konut Sigortası</a></li>
+                     <li><a href="dask-zorunlu-deprem-sigortasi.html">DASK</a></li>
+                   </ul>
+                 </li>
+                 <li class="dropdown-submenu"> <!-- Ticari & Kurumsal Sigortalar Grubu -->
+                   <a href="is-yeri-sigortasi-detay.html" class="dropdown-toggle">Ticari & Kurumsal Sigortalar <i class="fas fa-chevron-right dropdown-indicator" style="float: right; margin-left: auto;"></i></a>
+                   <ul class="dropdown-menu">
+                     <li><a href="is-yeri-sigortasi.html">İş Yeri Sigortası</a></li>
+                     <li><a href="eczane-paket-sigortasi.html">Eczane Paket Sigortası</a></li>
+                     <li><a href="akaryakit-paket-sigortasi.html">Akaryakıt Paket Sigortası</a></li>
+                     <li><a href="otel-paket-sigortasi.html">Otel Paket Sigortası</a></li>
+                     <li><a href="ortak-alan-sigortasi.html">Ortak Alan Sigortası</a></li>
+                     <li><a href="all-risk.html">All Risk</a></li>
+                   </ul>
+                 </li>
+                 <li class="dropdown-submenu"> <!-- Diğer Sigortalar Grubu -->
+                   <a href="diger.html" class="dropdown-toggle">Diğer Sigortalar <i class="fas fa-chevron-right dropdown-indicator" style="float: right; margin-left: auto;"></i></a>
+                   <ul class="dropdown-menu">
+                     <li><a href="hayat-sigortasi.html">Hayat Sigortası</a></li>
+                     <li><a href="nakliyat-sigortasi.html">Nakliyat Sigortası</a></li>
+                     <li><a href="tekne-gemi-sigortasi.html">Tekne-Gemi Sigortası</a></li>
+                     <li><a href="kefalet-sigortasi.html">Kefalet Sigortası</a></li>
+                     <li><a href="tarsim-sigortasi.html">Tarsim Sigortası</a></li>
+                   </ul>
+                 </li>
+              </ul>
+            </li>
+            <li><a href="index.html#process">Nasıl Çalışırız?</a></li>
+            <li><a href="index.html#about">Hakkımızda</a></li>
+            <li><a href="index.html#contact">İletişim</a></li>
+          </ul>
+        </nav>
+        <a href="index.html#calculator" class="btn btn-primary header-cta">Hızlı Teklif Al</a> <!-- Ana sayfaya yönlendirme -->
+        <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="close-btn" aria-label="Menüyü Kapat">&times;</button>
+    <ul>
+      <li><a href="index.html#hero">Ana Sayfa</a></li>
+      <li class="mobile-dropdown">
+        <a href="index.html#services" class="dropdown-toggle active">Sigorta Ürünlerimiz <i class="fas fa-chevron-down"></i></a> <!-- Aktif sınıfı buraya taşındı -->
+        <ul class="mobile-dropdown-content">
+          <li class="mobile-dropdown"> <!-- Araç Sigortaları Grubu -->
+            <a href="arac-sigortasi-detay.html" class="dropdown-toggle">Araç Sigortaları <i class="fas fa-chevron-down"></i></a>
+            <ul class="mobile-dropdown-content">
+              <li><a href="zorunlu-trafik.html">Zorunlu Trafik</a></li>
+              <li><a href="marka-kasko.html">Marka Kasko</a></li>
+              <li><a href="kasko-yeni.html">Kasko Yeni</a></li>
+              <li><a href="filo-kasko.html">Filo Kasko</a></li>
+              <li><a href="yesil-kart.html">Yeşil Kart</a></li>
+              <li><a href="rent-a-car-kasko.html">Rent a Car Kasko</a></li>
+            </ul>
+          </li>
+          <li class="mobile-dropdown"> <!-- Sağlık Sigortaları Grubu -->
+             <a href="saglik-sigortasi-detay.html" class="dropdown-toggle">Sağlık Sigortaları <i class="fas fa-chevron-down"></i></a>
+             <ul class="mobile-dropdown-content">
+               <li><a href="tamamlayici-saglik.html">Tamamlayıcı Sağlık</a></li>
+               <li><a href="ozel-saglik.html">Özel Sağlık</a></li>
+               <li><a href="yurtdisi-seyahat-saglik.html">Yurtdışı Seyahat Sağlık</a></li>
+               <li><a href="yurtdisi-egitim.html">Yurtdışı Eğitim</a></li>
+               <li><a href="yabanci-saglik.html">Yabancı Sağlık</a></li>
+               <li><a href="riskli-hastaliklar.html">Riskli Hastalıklar</a></li>
+             </ul>
+          </li>
+           <li class="mobile-dropdown"> <!-- Konut Sigortaları Grubu -->
+             <a href="konut-sigortasi-detay.html" class="dropdown-toggle">Konut Sigortaları <i class="fas fa-chevron-down"></i></a>
+             <ul class="mobile-dropdown-content">
+               <li><a href="konut-sigortasi.html">Konut Sigortası</a></li>
+               <li><a href="dask-zorunlu-deprem-sigortasi.html">DASK</a></li>
+             </ul>
+           </li>
+           <li class="mobile-dropdown"> <!-- Ticari & Kurumsal Sigortalar Grubu -->
+             <a href="is-yeri-sigortasi-detay.html" class="dropdown-toggle">Ticari & Kurumsal Sigortalar <i class="fas fa-chevron-down"></i></a>
+             <ul class="mobile-dropdown-content">
+               <li><a href="is-yeri-sigortasi.html">İş Yeri Sigortası</a></li>
+               <li><a href="eczane-paket-sigortasi.html">Eczane Paket Sigortası</a></li>
+               <li><a href="akaryakit-paket-sigortasi.html">Akaryakıt Paket Sigortası</a></li>
+               <li><a href="otel-paket-sigortasi.html">Otel Paket Sigortası</a></li>
+               <li><a href="ortak-alan-sigortasi.html">Ortak Alan Sigortası</a></li>
+               <li><a href="all-risk.html">All Risk</a></li>
+             </ul>
+           </li>
+           <li class="mobile-dropdown"> <!-- Diğer Sigortalar Grubu -->
+             <a href="diger.html" class="dropdown-toggle">Diğer Sigortalar <i class="fas fa-chevron-down"></i></a>
+             <ul class="mobile-dropdown-content">
+               <li><a href="hayat-sigortasi.html">Hayat Sigortası</a></li>
+               <li><a href="nakliyat-sigortasi.html">Nakliyat Sigortası</a></li>
+               <li><a href="tekne-gemi-sigortasi.html">Tekne-Gemi Sigortası</a></li>
+               <li><a href="kefalet-sigortasi.html">Kefalet Sigortası</a></li>
+               <li><a href="tarsim-sigortasi.html">Tarsim Sigortası</a></li>
+             </ul>
+           </li>
+        </ul>
+      </li>
+      <li><a href="index.html#process">Nasıl Çalışırız?</a></li>
+      <li><a href="index.html#about">Hakkımızda</a></li>
+      <li><a href="index.html#contact">İletişim</a></li>
+      <li><a href="index.html#calculator" class="btn btn-primary">Hızlı Teklif Al</a></li> <!-- Ana sayfaya yönlendirme -->
+    </ul>
+  </div>
+  <div class="overlay" id="overlay"></div>
+
+<main class="container py-5" style="padding-top: 120px;"> <!-- Padding artırıldı -->
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8 text-center">
+            <h1 class="mb-4 display-5 fw-bold">SİGORTA ÇÖZÜMLERİMİZ</h1>
+             <figure class="figure">
+                <img src="https://images.pexels.com/photos/7084839/pexels-photo-7084839.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                     alt="Çeşitli sigorta türlerini temsil eden ikonlar (ev, araba, sağlık, hayat)"
+                     class="figure-img img-fluid rounded shadow-sm mb-4"
+                     style="max-height: 350px; object-fit: cover;">
+                <figcaption class="figure-caption text-center">Hayatın her alanında güvenceniz Pars Sigorta.</figcaption>
+            </figure>
+            <p class="lead" style="font-size: 1.15rem; color: #454545; margin-bottom: 1.5rem;">
+                İhtiyaçlarınıza uygun tüm sigorta çözümlerimiz aşağıda listelenmiştir. Detaylı bilgi almak için ilgili sigorta türüne tıklayabilirsiniz.
+            </p>
+        </div>
+    </div>
+    <hr class="my-5">
+
+    <div class="row">
+        <div class="col-lg-6 mb-4">
+            <section id="arac-sigortalari" class="service-card p-4 h-100">
+                <h2 class="h4 fw-bold mb-3"><i class="fas fa-car me-2"></i>ARAÇ SİGORTALARI</h2>
+                <p>Aracınızı ve sizi olası risklere karşı koruyan Zorunlu Trafik Sigortası, Kasko ve diğer araç sigortası çözümlerimiz...</p>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="zorunlu-trafik.html">ZORUNLU TRAFİK SİGORTASI</a></li>
+                    <li class="mb-2"><a href="marka-kasko.html">MARKA KASKO</a></li>
+                    <li class="mb-2"><a href="filo-kasko.html">FİLO KASKO</a></li>
+                    <li class="mb-2"><a href="ihtiyari-mali-sorumluluk-sigortasi-imm.html">İHTİYARİ MALİ SORUMLULUK SİGORTASI (İMM)</a></li>
+                    <li><a href="yesil-kart-sigortasi.html">YEŞİL KART SİGORTASI</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+            <section id="saglik-sigortalari" class="service-card p-4 h-100">
+                <h2 class="h4 fw-bold mb-3"><i class="fas fa-heartbeat me-2"></i>SAĞLIK SİGORTALARI</h2>
+                <p>Beklenmedik sağlık sorunlarına karşı güvence sağlayan Tamamlayıcı Sağlık, Özel Sağlık ve diğer sağlık sigortası seçeneklerimiz.</p>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="tamamlayici-saglik.html">TAMAMLAYICI SAĞLIK SİGORTASI (TSS)</a></li>
+                    <li class="mb-2"><a href="ozel-saglik.html">ÖZEL SAĞLIK SİGORTASI (ÖSS)</a></li>
+                    <li class="mb-2"><a href="yurt-disi-seyahat-saglik.html">YURT DIŞI SEYAHAT SAĞLIK SİGORTASI</a></li>
+                    <li class="mb-2"><a href="yabanci-saglik.html">YABANCI SAĞLIK SİGORTASI</a></li>
+                    <li class="mb-2"><a href="yurtdışı-eğitim-sigortası.html">YURTDIŞI EĞİTİM SİGORTASI</a></li>
+                    <li class="mb-2"><a href="riskli-hastalıklar.html">RİSKLİ HASTALIKLAR SİGORTASI</a></li>
+                    <li><a href="ferdi-kaza.html">FERDİ KAZA SİGORTASI</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+            <section id="konut-sigortalari" class="service-card p-4 h-100">
+                <h2 class="h4 fw-bold mb-3"><i class="fas fa-home me-2"></i>KONUT SİGORTALARI</h2>
+                <p>Evinizi deprem, yangın, hırsızlık gibi risklere karşı koruma altına alan DASK, Konut Sigortası ve Site/Apartman çözümlerimiz.</p>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="dask-zorunlu-deprem-sigortasi.html">ZORUNLU DEPREM SİGORTASI (DASK)</a></li>
+                    <li class="mb-2"><a href="konut-sigortasi.html">KONUT SİGORTASI</a></li> <!-- Link eklendi -->
+                    <li class="mb-2"><a href="site-apartman-paket-sigortası.html">SİTE & APARTMAN PAKET SİGORTASI</a></li>
+                    <li><a href="yangin-sigortasi.html">YANGIN SİGORTASI</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+            <section id="ticari-kurumsal-sigortalar" class="service-card p-4 h-100">
+                <h2 class="h4 fw-bold mb-3"><i class="fas fa-building me-2"></i>TİCARİ & KURUMSAL SİGORTALAR</h2>
+                <p>İşletmenizin faaliyetlerini güvence altına alan Nakliyat, İşyeri, İnşaat All Risks ve diğer ticari sigorta ürünlerimiz.</p>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="nakliyat.html">NAKLİYAT SİGORTASI</a></li>
+                    <li class="mb-2"><a href="tekne-gemi-sigortasi.html">TEKNE & GEMİ SİGORTASI</a></li>
+                    <li class="mb-2"><a href="is-yeri-sigortasi-detay.html">İŞYERİ SİGORTASI</a></li>
+                    <li class="mb-2"><a href="all-risk.html">İNŞAAT VE MONTAJ (ALL RISKS) SİGORTASI</a></li>
+                    <li class="mb-2"><a href="eczane-paket-sigortasi.html">ECZANE PAKET SİGORTASI</a></li>
+                    <li class="mb-2"><a href="kefalet.html">KEFALET SİGORTASI</a></li>
+                    <li><a href="tarsim-tarım-sigortası.html">TARSİM (TARIM SİGORTALARI)</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+             <section id="bireysel-emeklilik-hayat" class="service-card p-4 h-100">
+                <h2 class="h4 fw-bold mb-3"><i class="fas fa-user-shield me-2"></i>BİREYSEL EMEKLİLİK & HAYAT SİGORTALARI</h2>
+                <p>Geleceğinizi güvence altına almak ve sevdiklerinizi korumak için Bireysel Emeklilik Sistemi (BES) ve Hayat Sigortası seçeneklerimiz.</p>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="bireysel-emeklilik-sistemi-bes.html">BİREYSEL EMEKLİLİK SİSTEMİ (BES)</a></li>
+                    <li><a href="hayat-sigortasi.html">HAYAT SİGORTASI</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+</main>
+
+<div id="footer-placeholder"></div>
+
+<script src="js/script.js"></script> <!-- Genel script dosyası -->
+</body>
+</html>
